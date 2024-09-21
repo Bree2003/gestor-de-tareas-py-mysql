@@ -1,0 +1,14 @@
+Crear un entorno virtual en python: python -m venv nombre_del_entorno
+pip install -r requirements.txt
+
+
+task_manager_project/
+│
+├── task_manager/        # Paquete principal
+│   ├── __init__.py      # Archivo para convertir esto en un paquete
+│   ├── db.py            # Módulo para la conexión con la base de datos
+│   ├── tasks.py         # Módulo para las operaciones relacionadas con tareas
+│   ├── config.py        # Módulo para la configuración de la base de datos
+│
+├── main.py              # Script principal que importa y usa los módulos
+└── requirements.txt     # Archivo para listar las dependencias (por ejemplo, mysql-connector)
